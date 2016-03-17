@@ -1,0 +1,8 @@
+---
+:backends:
+   - connect
+:hierarchy:
+  - examples
+  - global
+:connect:
+  :datadir: /vagrant/examples

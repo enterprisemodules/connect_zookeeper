@@ -1,0 +1,88 @@
+{
+  "name": "enterprisemodules-connect_zookeeper",
+  "version": "0.0.1",
+  "author": "Bert Hajee",
+  "summary": "Consul importer for Connect",
+  "license": "Apache-2.0",
+  "source": "https://github.com/enterprisemodules/connect_zookeeper",
+  "project_page": "https://github.com/enterprisemodules/connect_zookeeper",
+  "issues_url": "https://github.com/enterprisemodules/connect_zookeeper/issues",
+  "description": "Importer to import data from ZooKeeper into Connect",
+  "dependencies": [
+      {"name":"hajee/connect","version_requirement":">= 0.0.9 < 0.1.0"}
+  ],
+  "operatingsystem_support": [
+      {
+        "operatingsystem": "RedHat",
+        "operatingsystemrelease": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      {
+        "operatingsystem": "CentOS",
+        "operatingsystemrelease": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      {
+        "operatingsystem": "OracleLinux",
+        "operatingsystemrelease": [
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      {
+        "operatingsystem": "Scientific",
+        "operatingsystemrelease": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      {
+        "operatingsystem": "SLES",
+        "operatingsystemrelease": [
+          "11 SP1"
+        ]
+      },
+      {
+        "operatingsystem": "Debian",
+        "operatingsystemrelease": [
+          "6",
+          "7"
+        ]
+      },
+      {
+        "operatingsystem": "Ubuntu",
+        "operatingsystemrelease": [
+          "10.04",
+          "12.04"
+        ]
+      },
+      {
+        "operatingsystem": "Solaris",
+        "operatingsystemrelease": [
+          "10",
+          "11"
+        ]
+      }
+    ],
+    "requirements": [
+      {
+        "name": "pe",
+        "version_requirement": ">=3.4.3"
+      },
+      {
+        "name": "puppet",
+        "version_requirement": ">=3.4.3"
+      }
+    ]
+}

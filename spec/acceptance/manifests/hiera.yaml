@@ -1,0 +1,9 @@
+---
+:backends:
+   - connect
+:hierarchy:
+  - defaults
+  - global
+:connect:
+  :datadir: /etc/puppet/connect
+
